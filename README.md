@@ -40,3 +40,5 @@ THEN the password is either displayed in an alert or written to the page
 When the generate a password button is clicked, then a series of prompts are shown on screen that contain criteria for the password tp be made. This includes length of password between 8 and 128 characters, lower, upper, numeric, and special characters. The input is validated and when all prompts are answered, the password is generated and matches the selcted criteria. The password is displayed written on the page.
 
 ![](assets/03-javascript-homework-demo.png)
+
+Live URL of site: https://mboksh.github.io/week-3-password-generator/
