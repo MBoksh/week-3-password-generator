@@ -23,3 +23,36 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+function generatePassword() {
+  var result = "";
+  var Length = 0;
+  var upperCase;
+  var lowerCase;
+  var numbers;
+  var specialCharacters;
+  
+  length = 0;
+  passwordCriteria.passwordLength = 0;
+  result = "";
+
+
+  while (length < 8 || length > 128) {
+    length = prompt("Choose how many characters you want in your password. Password must be between 8 and 128 characters.");
+
+    if (length === false) {
+
+    }
+
+
+  }
+
+}
+
+function showCriteria() {
+  lowerCase = confirm("Would like to use lower case letters?");
+  upperCase = confirm("Would you like to use upper case letters?");
+  numbers = confirm("Would you like to use numbers?");
+  specialCharacters = confim("Would you like to use special characters?");
+
+}
